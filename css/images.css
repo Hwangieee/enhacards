@@ -1,0 +1,73 @@
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 690px;
+}
+
+/* Image size */
+.cover {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 200px;
+}
+
+.header {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+}
+
+.pc {
+    display: inline;
+    height: 6.5cm;
+    width: 4.2cm;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    
+}
+
+
+/* Image position */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TCenter {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.img:hover {
+    color: #424242;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    opacity: 1;
+    transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    /* IE 9 */
+    -webkit-transform: scale(1.15);
+    /* Safari and Chrome */
+
+}
+
+.textStyle {
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    background: rgba(0, 0, 0, 0.50);
+    width: 200px;
+    height: 200px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
